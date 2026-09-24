@@ -113,3 +113,30 @@ Step 2: Hierarchical clustering
 Step 3: Prophet forecasting
 
     jupyter notebooks/growthforecast.ipynb
+## Key Results
+
+### Predictive Layer (Prophet)
+
+- 2026 forecast: ~301.4 million domestic visitors
+- Concentration: Selangor + W.P. Kuala Lumpur = 23.7% of total
+- Top 5 states: 48.6% of total predicted arrivals
+- Bottom 5 states: 11.6% of total predicted arrivals
+
+### Diagnostic Layer (CCI)
+
+| Destination | TCCI | Status |
+|---|---|---|
+| Pulau Redang | 0.739 | Yellow |
+| Cameron Highlands | 0.687 | Green |
+| George Town | 0.674 | Green |
+| Tunku Abdul Rahman Park | 0.941 | Yellow |
+
+- AHP consistency ratio: 0.0167
+- Spearman correlation (AHP vs EWM): 1.0000
+- K-Means agreement: 75%
+
+### Decision Support Layer
+
+- 8 states High Pressure, 7 Moderate, 1 Low (Selangor)
+- Pulau Redang can reach Green with −30% visitors or Combined intervention
+- Tunku Abdul Rahman Park remains Yellow under all five scenarios
