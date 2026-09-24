@@ -147,6 +147,8 @@ Step 3: Prophet forecasting
 ### Dashboard
 
 Two-page Power BI dashboard included in `outputs/dashboard.pbix`.
+
+[Dashboard](https://github.com/limlining/NULLDATATHON/blob/main/nulldashboard.pbix%20(1).zip)
 ## Team
 
 **Null DATATHON** — Faculty of Computer Science, Universiti Teknologi Malaysia
