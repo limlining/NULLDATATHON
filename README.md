@@ -132,7 +132,7 @@ Step 3: Prophet forecasting
 | George Town | 0.674 | Green (Safe) |
 | Tunku Abdul Rahman Park | 0.941 | Yellow (Warning) |
 
-![CCI by Destination](figures/cci_by_destination.png)
+![CCI by Destination](https://github.com/limlining/NULLDATATHON/blob/main/Screenshot%202026-09-22%20143021.png)
 
 - **AHP consistency ratio:** 0.0167 (well below 0.10 threshold)
 - **Spearman correlation (AHP vs EWM):** 1.0000
