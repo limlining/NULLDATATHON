@@ -30,3 +30,5 @@ Malaysia's domestic tourism has recovered strongly post-COVID-19, but growth is 
 | Water consumption | OpenDOSM |
 | Population, GDP | OpenDOSM, DOSM |
 | Landslide incidents | Pahang State Government |
+
+## Repository Structure
