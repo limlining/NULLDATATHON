@@ -117,26 +117,50 @@ Step 3: Prophet forecasting
 
 ### Predictive Layer (Prophet)
 
-- 2026 forecast: ~301.4 million domestic visitors
-- Concentration: Selangor + W.P. Kuala Lumpur = 23.7% of total
-- Top 5 states: 48.6% of total predicted arrivals
-- Bottom 5 states: 11.6% of total predicted arrivals
+- **2026 forecast:** ~301.4 million domestic visitors
+- **Model comparison:** Prophet (MAPE ~6%) outperformed ARIMA(1,1,1) (MAPE ~18%) on 2025 holdout
+- **Concentration:** Selangor + W.P. Kuala Lumpur = **23.7%** of total
+- **Top 5 states:** 48.6% of total predicted arrivals
+- **Bottom 5 states:** 11.6% of total predicted arrivals
 
 ### Diagnostic Layer (CCI)
 
 | Destination | TCCI | Status |
 |---|---|---|
-| Pulau Redang | 0.739 | Yellow |
-| Cameron Highlands | 0.687 | Green |
-| George Town | 0.674 | Green |
-| Tunku Abdul Rahman Park | 0.941 | Yellow |
+| Pulau Redang | 0.739 | Yellow (Warning) |
+| Cameron Highlands | 0.687 | Green (Safe) |
+| George Town | 0.674 | Green (Safe) |
+| Tunku Abdul Rahman Park | 0.941 | Yellow (Warning) |
 
-- AHP consistency ratio: 0.0167
-- Spearman correlation (AHP vs EWM): 1.0000
-- K-Means agreement: 75%
+![CCI by Destination](figures/cci_by_destination.png)
+
+- **AHP consistency ratio:** 0.0167 (well below 0.10 threshold)
+- **Spearman correlation (AHP vs EWM):** 1.0000
+- **K-Means agreement:** 75%
 
 ### Decision Support Layer
 
-- 8 states High Pressure, 7 Moderate, 1 Low (Selangor)
-- Pulau Redang can reach Green with −30% visitors or Combined intervention
-- Tunku Abdul Rahman Park remains Yellow under all five scenarios
+- **8 states** classified as High Pressure, **7** Moderate, **1** Low (Selangor)
+- **Pulau Redang** can reach Green with −30% visitors or Combined intervention
+- **Tunku Abdul Rahman Park** remains Yellow under all five scenarios
+
+### Dashboard
+
+Two-page Power BI dashboard included in `outputs/dashboard.pbix`.
+## Team
+
+**Null DATATHON** — Faculty of Computer Science, Universiti Teknologi Malaysia
+
+- Ten Jing Yi
+  
+- Lim Li Jing
+  
+- Lim Li Ning
+  
+- Ng Xuan Yee
+
+**Supervisor:** Dr Goh Eg Su
+
+## License
+
+MIT
