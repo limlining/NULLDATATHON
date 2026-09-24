@@ -78,3 +78,38 @@ datathon-tourism
 
 
 └── README.md
+
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+```text
+pip install -r requirements.txt
+pandas>=2.0
+numpy>=1.24
+prophet>=1.1
+scikit-learn>=1.3
+scipy>=1.11
+matplotlib>=3.7
+seaborn>=0.12
+openpyxl>=3.1
+statsmodels>=0.14
+jupyter>=1.0
+```
+
+### Run The Pipeline
+
+Step 1: Data preprocessing + CCI + Scenario simulation
+
+      jupyter notebook notebooks/Tourism_1.ipynb
+
+Step 2: Hierarchical clustering
+
+     jupyter notebook notebooks/Tourism_2.ipynb
+
+Step 3: Prophet forecasting
+
+    jupyter notebooks/growthforecast.ipynb
