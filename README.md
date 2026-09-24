@@ -1,6 +1,4 @@
-# Team Name : Null
-Project Name : Tracking Tourist Trends for a Sustainable Malaysia
-
+## Project Name : Tracking Tourist Trends for a Sustainable Malaysia
 
 An end-to-end early-warning system for sustainable tourism in Malaysia, integrating demand forecasting, tourism carrying capacity assessment, and decision-support simulation
 
@@ -74,7 +72,7 @@ datathon-tourism
 ├── **report**
 
 
-│ └── Datathon_Report.pdf
+│ └── Null_Datathon2026_Report.pdf
 
 
 └── README.md
