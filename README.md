@@ -32,3 +32,49 @@ Malaysia's domestic tourism has recovered strongly post-COVID-19, but growth is 
 | Landslide incidents | Pahang State Government |
 
 ## Repository Structure
+datathon-tourism
+
+
+├── **data**
+
+
+│ ├── Null Datathon.xlsx
+
+
+│ ├── tourism data.xlsx
+
+
+│ └── cleaned/ # Preprocessed CSVs
+
+
+├── **notebooks**
+
+
+│ ├── 01_data_preprocessing.ipynb
+
+
+│ ├── 02_capacity_index.ipynb
+
+
+│ ├── 03_scenario_simulation.ipynb
+
+
+│ └── 04_growth_forecast.ipynb
+
+
+├── **outputs**
+
+
+│ ├── powerbi_*.csv # Power BI-ready tables
+
+
+│ └── dashboard.pbix # Power BI dashboard
+
+
+├── **report**
+
+
+│ └── Datathon_Report.pdf
+
+
+└── README.md
