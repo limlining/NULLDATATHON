@@ -163,6 +163,8 @@ Two-page Power BI dashboard included in `outputs/dashboard.pbix`.
 
 **Supervisor:** Dr Goh Eg Su
 
+## Report
+[FULLY REPORT](https://github.com/limlining/NULLDATATHON/blob/main/Null_Datathon2026_Report.pdf)
 ## License
 
 MIT
